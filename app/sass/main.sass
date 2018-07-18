@@ -1,0 +1,453 @@
+.head-wrap
+   background-image: url(../img/head-bg.png)
+   background-repeat: no-repeat
+   background-size: contain
+   background-position: center bottom
+   padding-top: 23px
+   
+   .logo
+      text-decoration: none
+      outline: 0
+      &:hover
+         text-decoration: none
+      img
+         height: 52px
+   .item-wrap
+      p
+         color: #ededed
+         font-size: 18px
+         font-family: PTSansRegular,sans-serif
+         img
+            height: 30px
+         strong
+            font-size: 24px
+            font-family: PTSansBold,sans-serif
+            font-weight: 700 
+   .head-title
+      font-size: 60px
+      font-family: RobotoCondensedBold
+      font-weight: 700
+      text-transform: uppercase
+      color: #f0e394
+   .text-product
+      font-size: 22px
+      font-family: RobotoMedium, sans-serif
+      color: #fff
+      padding-right: 20px
+      margin: 0
+   .properti-product
+      margin: 0
+      padding: 0
+      margin-top: 24px
+      position: relative
+      list-style-type: none
+      li
+         color: #fff
+         padding-bottom: 25px
+         display: inline-block
+         margin: 0
+         position: relative
+         img
+            padding-right: 10px
+         &:after
+            content: ""
+            width: 262px
+            height: 1px
+            display: block
+            background: #fff
+            background: linear-gradient(left,#000 0,#dbdbdb 50%,#d1d1d1 51%,#000 100%)
+            position: absolute
+            bottom: 12px
+            left: 0
+         &:last-child, &:after
+            height: 0
+   .bloc-time
+      float: left
+      margin-right: 45px
+      text-align: center
+      &:last-child
+         margin-right: 0
+   .figure
+      position: relative
+      float: left
+      height: 54px
+      width: 48px
+      border-radius: 4px
+      margin-right: 4px
+      background-color: #fff
+      &:first-child
+         opacity: 0.5
+      &:last-child
+         margin-right: 0
+      >span
+         position: absolute
+         left: 0
+         right: 0
+         margin: auto
+         font-size: 50px
+         font-family: PTSansNarrowBold,sans-serif
+         font-weight: 700
+         color: #000
+         border-radius: 4px
+   .top
+      z-index: 3
+      background-color: #f7f7f7
+      transform-origin: 50% 100%
+      &:after
+         content: ""
+         position: absolute
+         z-index: -1
+         left: 0
+         bottom: 0
+         width: 100%
+         height: 100%
+         border-bottom: 1px solid #cecece
+         opacity: 0.7
+   .bottom
+      z-index: 1
+      content: ""
+      position: absolute
+      display: block
+      top: 0
+      left: 0
+      width: 100%
+      height: 50%
+      background-color: rgba(0,0,0,.02)
+   .bottom-back
+      z-index: 2
+      top: 0
+      height: 50%
+      overflow: hidden
+      background-color: #f7f7f7
+      &:after
+         content: ""
+         position: absolute
+         z-index: -1
+         left: 0
+         bottom: 0
+         width: 100%
+         height: 100%
+         border-bottom: 1px solid #cecece
+         opacity: 0.7
+      span
+         position: absolute
+         top: 0
+         left: 0
+         right: 0
+         margin: auto
+   .top, .top-back
+      height: 50%
+      overflow: hidden
+   .top-back
+      z-index: 4
+      bottom: 0
+      background-color: #fff
+      transform-origin: 50% 0
+      span
+         position: absolute
+         top: -100%
+         left: 0
+         right: 0
+         margin: auto
+   .remain
+      margin-left: 161px
+      margin-top: 10px
+      position: relative
+      font-family: PTSansNarrowRegular, sans-serif
+      &:after
+         content: ""
+         width: 100%
+         height: 54px
+         border-radius: 4px
+         background-color: #0e0e0e
+         opacity: 0.4
+         position: absolute
+         z-index: -1
+         top: 0
+      p
+         font-size: 19px
+         color: #fff
+         margin: 0
+         padding-left: 15px
+   .product
+      height: 350px
+   .wrap-form-container
+      position: relative
+      margin-top: 60px
+      .form-img
+         width: 100%
+      .price
+         border-top-left-radius: 9px
+         display: inline-block
+         color: #fff
+         margin-right: -5px
+         width: 49%
+         position: absolute
+         top: 0
+         left: 0
+         .price-text
+            margin: 0
+            padding-top: 26px
+            padding-left: 26px
+            font-size: 18px
+            font-family: PTSansNarrowRegular, sans-serif
+            opacity: 0.7
+         .price-item
+            margin: 0
+            font-size: 24px
+            font-family: PTSansNarrowRegular, sans-serif
+            opacity: 0.7
+            padding-left: 26px
+            span
+               font-size: 48px
+               text-decoration: line-through
+      .sales
+         border-radius: 0 9px 0 0
+         display: inline-block
+         color: #fff
+         width: 49%
+         position: absolute
+         top: 0
+         right: 0
+         .price-text
+            margin: 0
+            padding-top: 26px
+            padding-left: 30px
+            font-size: 18px
+            font-family: PTSansNarrowRegular, sans-serif
+         .sales-item
+            margin: 0
+            font-size: 24px
+            font-family: PTSansNarrowBold, sans-serif
+            padding-left: 30px
+            span
+               font-size: 48px
+   .form
+      background-color: #fff
+      margin-top: -27px
+      border-radius: 0 0 9px 9px
+      .input-name
+         margin-top: 40px
+         margin-bottom: 15px
+      input
+         margin: 0 18px
+         padding: 20px 10px 24px 15px
+         width: 90%
+         border-radius: 4px
+         border: 1px solid #e1e1e1
+         background-color: #f6f6f6
+         font-size: 14px
+         font-family: OpenSans, sans-serif
+      button
+         margin: 25px 18px 30px 18px
+         width: 90%
+         padding: 17px 25px 18px 40px
+         font-family: PTSansNarrowBold, sans-serif
+         font-size: 22px
+         text-transform: uppercase
+         border: none
+         background-color: #fc481a
+         border-radius: 5px
+         color: #fff
+         outline: 0
+         position: relative
+         >span
+            background-image: url(../img/arrow.png)
+            background-repeat: no-repeat
+            background-position: center
+            height: 60px
+            width: 50px
+            display: inline-block
+            background-color: #b13412
+            position: absolute
+            border-radius: 5px 0 0 5px
+            left: 0
+            top: 0
+      .wrap-lock
+         margin-left: 27px
+         padding-bottom: 25px
+         padding-right: 15px;
+         .text-lock
+            font-family: PTSansNarrowRegular,sans-serif
+            font-size: 15px
+            color: #000
+         .lock
+            height: 23px
+            width: 20px
+            float: left
+            margin-top: -6px
+            margin-bottom: 25px
+   .sale50
+      text-align: center
+      margin-top: 400px
+      margin-left: 10px
+      p
+         margin: 0
+         color: #fff
+         font-size: 19px
+         font-family: PTSansNarrowRegular, sans-serif
+.problem-bg
+   background-image: url(../img/section-bg.png)
+   background-repeat: no-repeat
+   background-size: contain
+   background-position: center bottom
+   padding-top: 50px
+   text-align: center
+   h2
+      font-size: 48px
+      font-family: PTSansNarrowRegular, sans-serif
+      text-transform: uppercase
+      color: #fff
+      margin: 0
+      strong
+         font-family: PTSansNarrowBold, sans-serif
+      span
+         font-family: PTSansNarrowBold, sans-serif
+         color: #fc481a
+   .problem-text
+      margin: 0
+      padding: 0
+      margin-top: 25px
+      color: #fff
+      font-family: PTSansRegular, sans-serif
+      font-size: 22px
+   .wrap-problem
+      background-color: #fff
+      margin: 22px 0 67px 0
+      border-radius: 9px
+      span
+         display: inline-block
+         background-color: #e5e5e5
+         border-radius: 50%
+         height: 60px
+         width: 60px
+         line-height: 60px
+         font-size: 24px
+         font-family: PTSansBold, sans-serif
+         margin-top: 30px
+         margin-bottom: 40px
+      p
+         display: inline-block
+         margin: 0
+         font-size: 24px
+         font-family: PTSansBold, sans-serif
+         text-transform: uppercase
+         margin-left: 15px
+      button
+         display: inline-block
+         width: 250px
+         height: 80px
+         border: none
+         text-transform: uppercase
+         color: #fff
+         -webkit-border-radius: 9px
+         border-radius: 9px
+         font-family: PTSansBold,sans-serif
+         font-size: 24px
+         margin: 0 10px 50px
+         background-color :#fc481a
+         position: relative
+         outline: 0
+         &:after
+            content: ""
+            width: 300px
+            height: 54px
+            -webkit-border-radius: 300px/54px
+            border-radius: 300px/54px
+            background-color: #fff
+            opacity: 0.15
+            position: absolute
+            top: -11px
+            left: -25px
+.max-efect
+   background-color: #fff
+   padding-top: 23px
+   padding-left: 42px
+   -webkit-border-radius: 9px
+   border-radius: 9px
+   background-image: url(../img/girl-bg.png)
+   background-position: center right
+   background-repeat: no-repeat
+   h2
+      font-size: 48px
+      font-family: PTSansNarrowBold, sans-serif
+      text-transform: uppercase
+      color: #000
+      margin: 0
+      span
+         color: #fc481a
+   p
+      margin: 0
+      margin-top: 32px
+      margin-bottom: 40px
+      font-size: 17px
+      strong
+         font-family: PTSansBold, sans-serif
+         text-transform: uppercase
+.advant
+   background-image: url(../img/advent-bg.png)
+   background-repeat: no-repeat
+   background-position: left bottom
+   margin-top: 60px
+   text-align: center
+   padding-bottom: 70px
+   h2
+      font-size: 48px
+      font-family: PTSansNarrowRegular,sans-serif
+      text-transform: uppercase
+      color: #fff
+      margin: 0
+      margin-bottom: 40px
+      strong
+         font-family: PTSansNarrowBold, sans-serif
+      span
+         font-family: PTSansNarrowBold, sans-serif
+         color: #fc481a
+   .product-advent
+      margin-left: -50px
+   .advent-item
+      background-color: #fff
+      -webkit-border-radius: 11px
+      border-radius: 11px
+      width: 200px
+      margin-bottom: 15px
+      display: inline-block
+      height: 274px
+      clear: both
+      p
+         margin: 0
+         padding: 0 37px
+         margin-top: 13px
+         padding-bottom: 17px
+         font-family: PTSansBold, sans-serif
+.doctor
+   background-color: #fff
+   padding-top: 23px
+   padding-left: 42px
+   -webkit-border-radius: 9px
+   border-radius: 9px
+   background-image: url(../img/doctor-bg.png)
+   background-position: center right
+   background-repeat: no-repeat
+   margin-bottom: 20px
+   h2
+      font-size: 48px
+      font-family: PTSansNarrowBold, sans-serif
+      text-transform: uppercase
+      color: #000
+      margin: 0
+      span
+         color: #fc481a
+   p
+      margin: 0
+      margin-top: 22px
+      margin-bottom: 20px
+      font-size: 17px
+   .doctor-text
+      font-family: PTSansBoldItalic, sans-serif
+      margin-top: 10px
+      margin-bottom: 40px
+      display: inline-block
+   .doctor-signature
+      margin-left: 65px
+
